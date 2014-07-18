@@ -22,4 +22,4 @@ export GIT_EDITOR='/usr/local/bin/mvim -v'
 
 # aliases for git
 alias git-diff-branch='git diff --name-status'
-alias git-log='git log --oneline'
+alias git-log='git log --oneline --graph'
