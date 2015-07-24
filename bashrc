@@ -14,7 +14,7 @@ alias emacs='emacs -nw'
 export PS1='\w $ '
 
 # Path
-export PATH=/usr/local/bin:~/bin/osxscripts:/usr/local/opt/ruby/bin:$PATH
+export PATH=/usr/local/bin:~/bin:~/bin/osxscripts:/usr/local/opt/ruby/bin:$PATH
 
 # Other Options
 export GREP_OPTIONS='--color=auto'
