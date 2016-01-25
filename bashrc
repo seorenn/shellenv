@@ -14,7 +14,7 @@ alias emacs='emacs -nw'
 export PS1='\w $ '
 
 # Path
-export PATH=/usr/local/bin:~/bin:~/bin/osxscripts:/usr/local/opt/ruby/bin:$PATH
+export PATH=/Library/Developer/Toolchains/swift-latest.xctoolchain/usr/bin:/usr/local/bin:~/bin:~/bin/osxscripts:/usr/local/opt/ruby/bin:$PATH
 
 # Other Options
 export GREP_OPTIONS='--color=auto'
@@ -24,3 +24,4 @@ export GIT_EDITOR='/usr/local/bin/mvim -v'
 alias git-diff-branch='git diff --name-status'
 alias git-log='git log --oneline --graph'
 alias git-headhash='git rev-parse --short HEAD'
+alias git-pullall='git pull && git submodule update --init --recursive'
