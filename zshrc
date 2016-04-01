@@ -10,9 +10,6 @@ alias vim='mvim -v'
 # Emacs for Terminal
 alias emacs='emacs -nw'
 
-# Prompt
-export PS1='\w $ '
-
 # Path
 export PATH=/Library/Developer/Toolchains/swift-latest.xctoolchain/usr/bin:/usr/local/bin:~/bin:~/bin/osxscripts:/usr/local/opt/ruby/bin:/usr/local/sbin:$PATH
 
